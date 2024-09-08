@@ -6,6 +6,7 @@ const v = [1, 9, 8, 7, 3, 2];
  * @param {number[]} v - The array to be sorted.
  * @return {number[]} - The array sorted in ascending order.
  */
+
 function selectionSort(v) {
   // Iterate through the array to find the smallest value in each iteration
   for (let i = 0; i < v.length; i++) {
