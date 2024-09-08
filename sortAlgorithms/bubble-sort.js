@@ -2,7 +2,7 @@
 const v = [1, 9, 8, 7, 3, 2];
 
 /**
- * Sorts an array using the Selection Sort algorithm.
+ * Sorts an array using the Bubble Sort algorithm.
  * @param {number[]} v - The array to be sorted.
  * @return {number[]} - The array sorted in ascending order.
  */
