@@ -1,6 +1,6 @@
 // Create a list of numbers from 1 to 8
 const numberList = Array.from({ length: 8 }, (_, i) => i + 1);
-
+//teste
 /**
  * Performs a binary search on a sorted array.
  * @param {number[]} arr - The sorted array to search.
