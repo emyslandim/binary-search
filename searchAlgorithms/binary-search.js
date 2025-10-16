@@ -1,4 +1,4 @@
-// Create a list of numbers from 1 to 8
+// Create a list of numbers from 1 to 8.
 const numberList = Array.from({ length: 8 }, (_, i) => i + 1);
 
 /**
