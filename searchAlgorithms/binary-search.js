@@ -8,7 +8,7 @@ const numberList = Array.from({ length: 8 }, (_, i) => i + 1);
  * @return {number | null} - The found number or null if not found.
  */
 function binarySearch(arr, target) {
-    let low = 0;               // Starting index of the array
+    let low = 0;               // Starting index of the array.
     let high = arr.length - 1; // Ending index of the array
 
     while (low <= high) {
