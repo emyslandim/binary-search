@@ -13,7 +13,7 @@ function binarySearch(arr, target) {
 
     while (low <= high) {
         const mid = Math.floor((low + high) / 2); // Middle index of the current range
-        const guess = arr[mid]; // Middle value of the current range
+        const guess = arr[mid]; // Middle value of the current range.
 
         if (guess < target) {
             low = mid + 1; // Adjust the search range to the right half
