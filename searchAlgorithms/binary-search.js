@@ -9,7 +9,7 @@ const numberList = Array.from({ length: 8 }, (_, i) => i + 1);
  */
 function binarySearch(arr, target) {
     let low = 0;               // Starting index of the array.
-    let high = arr.length - 1; // Ending index of the array
+    let high = arr.length - 1; // Ending index of the array.
 
     while (low <= high) {
         const mid = Math.floor((low + high) / 2); // Middle index of the current range
