@@ -8,7 +8,7 @@ function mergeSort(array) {
         return array; // Base case: a list of zero or one element is already sorted
     }
 
-    // Divide the array into two halves
+    // Divide the array into two halves.
     const middle = Math.floor(array.length / 2);
     const left = array.slice(0, middle);
     const right = array.slice(middle);
