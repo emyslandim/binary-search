@@ -6,7 +6,7 @@ const v = [1, 9, 8, 7, 3, 2];
  * @param {number[]} v - The array to be sorted.
  * @return {number[]} - The array sorted in ascending order.
  */
-
+//testezin
 function bubbleSort(v) {
     let n = v.length;
     let sorted = true; // Assume the array is sorted initially
